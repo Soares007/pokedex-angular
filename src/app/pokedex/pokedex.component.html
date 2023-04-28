@@ -1,0 +1,25 @@
+<div class="mt-3">
+
+{{getId()}}
+  <img [src]="poke.sprites.front_default"
+    width="400px" class="shadow-lg rounded">
+  <div class="display-6 mt-2">
+  </div>
+  <div class="mt-2">
+    3 M
+    <span>
+      40 KG
+    </span>
+  </div>
+  <div>
+    Stats:
+  </div>
+  <div class="row grid gap-1">
+    <div class="col-2 btn btn-danger">
+      Anterior
+    </div>
+    <div (click)="loadPoke()" class="col-2 btn btn-primary">
+      Próximo
+    </div>
+  </div>
+</div>
